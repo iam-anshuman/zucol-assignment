@@ -8,10 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily:{
+        "sora": ["Sora", "sans-serif"],
+        "georama": ["Georama", "sans-serif"],
+      }
     },
   },
   plugins: [],
