@@ -26,14 +26,14 @@ export default function HeroSection() {
                         src={"/kite.svg"}
                         width={100}
                         height={100}
-                        className="absolute top-1/2 right-0 md:top-[60%] md:right-36"
+                        className="absolute top-1/2 -right-10 md:top-[60%] md:right-36"
                         alt="Kite"
                     />
                     <Image
                         src={"/kite-string.svg"}
                         width={100}
                         height={100}
-                        className="absolute -z-10 bottom-0 right-0 w-full md:-bottom-[32.5rem] md:right-[15.4%]"
+                        className="absolute -z-10 -bottom-40 right-0 w-full md:-bottom-[32.5rem] md:right-[15.4%]"
                         alt="Kite String"
                     />
                     <Image
@@ -45,12 +45,12 @@ export default function HeroSection() {
                     />
                 </div>
             </div>
-            <div className="absolute right-0 top-[15%] w-[10vw] flex flex-col items-center">
-                <div className="rotate-90 my-14 cursor-pointer">Skyclub</div>
-                <div className="rotate-90 my-14 cursor-pointer">Sky Wallet</div>
-                <div className="rotate-90 my-14 cursor-pointer">Contact Now</div>
+            <div className="absolute top-0 right-0 md:top-[15%] md:w-[10vw] flex md:flex-col items-center">
+                <div className="rotate-0 md:rotate-90 my-14 mx-5 cursor-pointer">Skyclub</div>
+                <div className="rotate-0 md:rotate-90 my-14 mx-5 cursor-pointer">Sky Wallet</div>
+                <div className="rotate-0 md:rotate-90 my-14 mx-5 cursor-pointer">Contact Now</div>
             </div>
-            <div className="absolute -z-10 h-[30rem] w-[30rem] rounded-full bg-gradient-to-br from-[#7182EA]/60 to-[#B259E1]/60 blur-3xl right-10 -bottom-60 md:-right-10"></div>
+            <div className="absolute -z-10 md:h-[30rem] md:w-[30rem] rounded-full bg-gradient-to-br from-[#7182EA]/60 to-[#B259E1]/60 blur-3xl md:-bottom-60 md:-right-10"></div>
         </div>
     );
 }

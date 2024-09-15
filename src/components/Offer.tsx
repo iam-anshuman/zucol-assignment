@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Offer(){
     return(
-        <div className="bg-[#1C1B1B] h-[60vh]">
+        <div className="bg-[#1C1B1B] h-[50vh] md:h-[60vh] w-full">
             <div className="text-[#FFD318] text-7xl text-center font-bold font-georama pt-28">Tanukibles</div>
             <div className="text-5xl text-white font-georama font-bold text-center my-4">Play 2 Earn Game</div>
             <div className="text-[#FFD318] text-3xl text-center font-bold font-georama my-4">9999 Tanuki NFTs up for grabs</div>

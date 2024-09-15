@@ -1,7 +1,7 @@
 export default function FeatureSection(){
     return(
-        <div className="flex flex-col md:flex-row mt-40">
-            <div className="basis-1/2 h-full bg-[#FFD318] text-black relative p-10">
+        <div className="flex flex-col md:flex-row md:mt-40">
+            <div className="md:basis-1/2 h-full bg-[#FFD318] text-black relative p-10">
                 <div className="flex">
                     <SkyWalletIcon/>
                     <span className="text-xl font-bold mx-2">skywallet</span>
@@ -10,13 +10,13 @@ export default function FeatureSection(){
                     <h2 className="w-1/2 my-4 font-bold text-4xl">Your Everyday Crypto Wallet</h2>
                 </div>
                 <div className="bg-[url('/Sphere-lining.svg')] bg-cover bg-no-repeat">
-                <div className="w-3/4 block mx-auto my-5">
-                <div className="flex ml-[10rem]">
-                    <div className="basis-[10rem] bg-[#d3b22b] text-black h-32 p-4">
+                <div className="ms:w-3/4 block mx-auto my-5">
+                <div className="flex md:ml-[10rem]">
+                    <div className="md:basis-[10rem] bg-[#d3b22b] text-black h-32 p-4">
                         <CurrencyIcon/>
                         <div className="my-2">Use across any app and currency</div>
                     </div>
-                    <div className="basis-[10rem] bg-[#b39933] text-black h-32 p-4">
+                    <div className="md:basis-[10rem] bg-[#b39933] text-black h-32 p-4">
                         <PinIcon/>
                         <div className="my-2">One place for all your Web3 possessions</div>
                     </div>
@@ -34,7 +34,7 @@ export default function FeatureSection(){
                 </div>
                 </div>
             </div>
-            <div className="basis-1/2 h-full bg-[#222020] text-white relative p-10">
+            <div className="md:basis-1/2 h-full bg-[#222020] text-white relative p-10">
                 <div className="flex">
                     <SkyClubIcon/>
                     <span className="text-xl font-bold mx-2">skyclub</span>
@@ -42,23 +42,23 @@ export default function FeatureSection(){
                 <div>
                     <h2 className="w-2/3 my-4 font-bold text-4xl">Exclusive for you and Your Community</h2>
                 </div>
-                <div className="w-3/4 block mx-auto my-5">
+                <div className="md:w-3/4 block mx-auto my-5">
                 <div className="flex ">
-                    <div className="basis-[10rem] bg-[#d3b22b] text-black h-32 p-4">
+                    <div className="md:basis-[10rem] bg-[#d3b22b] text-black h-32 p-4">
                         <GamingConsoleIcon/>
                         <div className="my-2">Use across any app and currency</div>
                     </div>
-                    <div className="basis-[10rem] bg-[#b39933] text-black h-32 p-4">
+                    <div className="md:basis-[10rem] bg-[#b39933] text-black h-32 p-4">
                         <FourCircleSquareIcon/>
                         <div className="my-2">One place for all your Web3 possessions</div>
                     </div>
                 </div>
                 <div className="flex ml-[10rem]">
-                    <div className="basis-[10rem] bg-[#bea12c] text-black h-32 p-4">
+                    <div className="md:basis-[10rem] bg-[#bea12c] text-black h-32 p-4">
                         <VideoCameraIcon/>
                         <div className="my-2">Simple and Secure</div>
                     </div>
-                    <div className="basis-[10rem] bg-[#caab2c] text-black h-32 p-4">
+                    <div className="md:basis-[10rem] bg-[#caab2c] text-black h-32 p-4">
                         <OfferIcon/>
                         <div className="my-2">Work Everywhere</div>
                     </div>

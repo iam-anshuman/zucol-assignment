@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Offer from "@/components/Offer";
 import OrganizationStructure from "@/components/OrganizationStructure";
 import Team from "@/components/Team";
+import Web3EveryOne from "@/components/Web3EveryOne";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Community/>
       <OrganizationStructure/>
       <Team/>
+      <Web3EveryOne/>
     </div>
   );
 }
