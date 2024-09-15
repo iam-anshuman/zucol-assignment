@@ -3,7 +3,7 @@ export default function Web3EveryOne() {
   return (
     <div className="relative">
       <Image
-        src={"/Images /LoverKiteString.svg"}
+        src={"/Images/LoverKiteString.svg"}
         width={300}
         height={300}
         alt="kite"
