@@ -9,35 +9,35 @@ export default function HeroSection() {
                 </h1>
                 <div className="relative w-full flex justify-center items-center mt-10">
                     <Image
-                        src={"/yellow-circle.svg"}
+                        src={"/Images/yellow-circle.svg"}
                         width={100}
                         height={100}
                         className="w-3/5 md:w-2/5"
                         alt="yellow-circle"
                     />
                     <Image
-                        src={"/star-pattern.svg"}
+                        src={"/Images/star-pattern.svg"}
                         width={100}
                         height={100}
                         className="absolute -z-10 top-0 right-0 md:top-[20%] md:right-[28%]"
                         alt="star-pattern"
                     />
                     <Image
-                        src={"/kite.svg"}
+                        src={"/Images/kite.svg"}
                         width={100}
                         height={100}
                         className="absolute top-1/2 -right-10 md:top-[60%] md:right-36"
                         alt="Kite"
                     />
                     <Image
-                        src={"/kite-string.svg"}
+                        src={"/Images/kite-string.svg"}
                         width={100}
                         height={100}
                         className="absolute -z-10 -bottom-40 right-0 w-full md:-bottom-[32.5rem] md:right-[15.4%]"
                         alt="Kite String"
                     />
                     <Image
-                        src={"/Person.svg"}
+                        src={"/Images/Person.svg"}
                         width={100}
                         height={100}
                         className="absolute bottom-0 w-1/4 md:-bottom-72 md:right-96 md:w-1/6"

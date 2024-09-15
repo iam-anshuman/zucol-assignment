@@ -9,7 +9,7 @@ export default function FeatureSection(){
                 <div>
                     <h2 className="w-1/2 my-4 font-bold text-4xl">Your Everyday Crypto Wallet</h2>
                 </div>
-                <div className="bg-[url('/Sphere-lining.svg')] bg-cover bg-no-repeat">
+                <div className="bg-[url('/Images/Sphere-lining.svg')] bg-cover bg-no-repeat">
                 <div className="ms:w-3/4 block mx-auto my-5">
                 <div className="flex md:ml-[10rem]">
                     <div className="md:basis-[10rem] bg-[#d3b22b] text-black h-32 p-4">

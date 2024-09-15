@@ -3,14 +3,14 @@ export default function Web3EveryOne() {
   return (
     <div className="relative">
       <Image
-        src={"/LoverKiteString.svg"}
+        src={"/Images /LoverKiteString.svg"}
         width={300}
         height={300}
         alt="kite"
         className="w-[80vw]"
       />
       <Image
-        src={"/LowerKite.svg"}
+        src={"/Images/LowerKite.svg"}
         width={300}
         height={300}
         alt="kite"
@@ -51,7 +51,7 @@ export default function Web3EveryOne() {
 
       <div className="relative">
         <Image
-          src={"/Image-Greek_Sculpture.png"}
+          src={"/Images/Image-Greek_Sculpture.png"}
           width={300}
           height={300}
           alt="kite"
