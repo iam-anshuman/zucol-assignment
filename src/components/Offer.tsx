@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 export default function Offer(){
     return(
         <div className="bg-[#1C1B1B] h-[50vh] md:h-[60vh] w-full">
