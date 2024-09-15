@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images:{
-        domains:["https://zucol-assignment.vercel.app/"]
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: '**',
+              port: '',
+              pathname: '**',
+            },
+        ],
     }
 };
 
