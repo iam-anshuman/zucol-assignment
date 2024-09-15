@@ -9,35 +9,35 @@ export default function HeroSection() {
                 </h1>
                 <div className="relative w-full flex justify-center items-center mt-10">
                     <Image
-                        src={"/Images/yellow-circle.svg"}
+                        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386991/Zucol/qsqxwdeu8qyuvmofejq5.svg"}
                         width={100}
                         height={100}
                         className="w-3/5 md:w-2/5"
                         alt="yellow-circle"
                     />
                     <Image
-                        src={"/Images/star-pattern.svg"}
+                        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386989/Zucol/lpdd0ee0ibpqxg6ylenc.svg"}
                         width={100}
                         height={100}
                         className="absolute -z-10 top-0 right-0 md:top-[20%] md:right-[28%]"
                         alt="star-pattern"
                     />
                     <Image
-                        src={"/Images/kite.svg"}
+                        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/mgca8teyqoaovs4jfmaw.svg"}
                         width={100}
                         height={100}
                         className="absolute top-1/2 -right-10 md:top-[60%] md:right-36"
                         alt="Kite"
                     />
                     <Image
-                        src={"/Images/kite-string.svg"}
+                        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386988/Zucol/f5t0lovmufqbnn9f1saz.svg"}
                         width={100}
                         height={100}
                         className="absolute -z-10 -bottom-40 right-0 w-full md:-bottom-[32.5rem] md:right-[15.4%]"
                         alt="Kite String"
                     />
                     <Image
-                        src={"/Images/Person.svg"}
+                        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386989/Zucol/vcyjyvrzegb8evpmluia.svg"}
                         width={100}
                         height={100}
                         className="absolute bottom-0 w-1/4 md:-bottom-72 md:right-96 md:w-1/6"
