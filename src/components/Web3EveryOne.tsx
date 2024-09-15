@@ -3,14 +3,14 @@ export default function Web3EveryOne() {
   return (
     <div className="relative">
       <Image
-        src={"/Images/LoverKiteString.svg"}
+        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386988/Zucol/vye4lqvanzepldfecx5t.svg"}
         width={300}
         height={300}
         alt="kite"
         className="w-[80vw]"
       />
       <Image
-        src={"/Images/LowerKite.svg"}
+        src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/thhfddiqxspqrfmdzwak.svg"}
         width={300}
         height={300}
         alt="kite"
@@ -51,7 +51,7 @@ export default function Web3EveryOne() {
 
       <div className="relative">
         <Image
-          src={"/Images/Image-Greek_Sculpture.png"}
+          src={"https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386988/Zucol/xkwhdgbx2ieqaq9osa4j.png"}
           width={300}
           height={300}
           alt="kite"

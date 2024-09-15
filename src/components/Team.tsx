@@ -4,37 +4,37 @@ const teamMembers = [
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   },
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   },
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   },
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   },
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   },
   {
     name: 'Ankit Arora',
     role: 'Co-Founder',
-    imageSrc: '/Images/AnimeImage1.png', // Ensure you have an image in your public folder
+    imageSrc: 'https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386986/Zucol/o380khacsyqswsgrclu4.png', // Ensure you have an image in your public folder
     gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500'
   }
 ]
@@ -49,7 +49,7 @@ function Team() {
             </div>
         </div>
         <div className="border-2 border-black/80 rounded-lg h-[60vh] relative my-10">
-          <div className="bg-[url('/Images/GridBackground.svg')] bg-cover bg-no-repeat h-[60vh] rounded-lg">
+          <div className="bg-[url('https://res.cloudinary.com/dewj7yvp3/image/upload/v1726386987/Zucol/b6klfb4jszv9gousx9qo.svg')] bg-cover bg-no-repeat h-[60vh] rounded-lg">
               {
                 <div className="flex overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide p-4 space-x-4">
                         {teamMembers.map((member, index) => (
